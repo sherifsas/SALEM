@@ -36,9 +36,9 @@ def get_completion_percentage(current_image, complete_image, runs=10):
     prompt = [
         {"text": (
             "I'm showing you two images of a construction or structure project. "
-            "The first image shows the current state, and the second image shows what the completed project should look like. "
-            "Based on these images, give me an estimated percentage of completion (just the number, e.g., '65%'). "
-            "Then provide a brief explanation of your reasoning."
+            "The first image shows the current state, and the second image shows what the completed project in Building information modeling"
+            "which should look like. Based on these images, give me an estimated percentage of completion (just the number, e.g., '65%'). "
+            "Then provide a detailed explanation of your reasoning and make a full report in PDF "
         )},
         {"inline_data": {
             "mime_type": "image/jpeg",
